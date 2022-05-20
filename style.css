@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* write your CSS here */
+.wrapper {
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #63b0ff, #6d9cff);
+}
+
+.container {
+    width: 42.15%;
+    background-color: white;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1) ;
+    border-radius: 10px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > p {
+    text-align: center;
+    font-size: 15px;
+    margin: 30px 0px 20px 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.form > * {
+    margin: 13px 0px;
+    padding: 15px;
+    border: #ebebf2 solid 1px;
+    border-radius: 10px;
+    color: #7985ff;
+
+}
+
+input:focus {
+    outline: none !important;
+    border: #7985ff solid 1px;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus {
+    outline: none !important;
+    border: #7985ff solid 1px;
+}
+
+button {
+    background-image: linear-gradient(to right, #63b0ff, #6d9cff);
+    color: white !important;
+    font-weight: 500;
+    border: none !important;
+}
+
+::placeholder {
+    color: #242e4c;
+    opacity: 50%;
+}
