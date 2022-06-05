@@ -17,10 +17,10 @@ You'll learn how to build a Contact Us Form for a website and you'll learn how t
 
 **Requirements**
 
-- Show hover effect on button
-- Show error message if any input box is empty
-- Show a tick mark if a valid input is entered
-- After submitting the form, Users must see the Thank You message for their reassurance.
+-   Show hover effect on button
+-   Show error message if any input box is empty
+-   Show a tick mark if a valid input is entered
+-   After submitting the form, Users must see the Thank You message for their reassurance.
 
 **Web3Forms API Link**
 https://web3forms.com/
