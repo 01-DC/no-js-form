@@ -53,6 +53,12 @@ input:focus {
 	border: #7985ff solid 1px;
 }
 
+#email::after {
+	content: '🔴🟢';
+	width: auto;
+	height: auto;
+}
+
 textarea {
 	resize: none;
 }
@@ -67,6 +73,12 @@ button {
 	color: white !important;
 	font-weight: 500;
 	border: none !important;
+	transition: 0.1s ease-out;
+}
+
+button:hover {
+	cursor: pointer;
+	box-shadow: 0px 0px 3px 2px #63b0ff;
 }
 
 ::placeholder {
