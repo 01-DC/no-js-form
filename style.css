@@ -40,7 +40,7 @@
 	width: 100%;
 }
 
-.form > * {
+.form > input, textarea, button {
 	margin: 13px 0px;
 	padding: 15px;
 	border: #ebebf2 solid 1px;
@@ -48,15 +48,25 @@
 	color: #7985ff;
 }
 
+form {
+	position: relative;
+}
+
 input:focus {
 	outline: none !important;
 	border: #7985ff solid 1px;
 }
 
-#email::after {
-	content: '🔴🟢';
-	width: auto;
-	height: auto;
+#name-status {
+	position: absolute;
+	right: 10px;
+	top: 25px;
+}
+
+#email-status {
+	position: absolute;
+	right: 10px;
+	top: 100px;
 }
 
 textarea {

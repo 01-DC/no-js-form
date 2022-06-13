@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
-		<script src="script.js"></script>
+		<script defer src="script.js" ></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -26,7 +26,7 @@
 				</p>
 
 				<form
-					name="form1"
+					name="Form1"
 					class="form"
 					action="https://api.web3forms.com/submit"
 					method="POST"
@@ -45,18 +45,20 @@
 
 					<input
 						type="text"
-						name="name"
+						name="Name"
 						id="name"
 						placeholder="Name"
 						required
 					/>
+					<span id="name-status"></span>
 					<input
 						type="email"
-						name="email address"
+						name="Email"
 						id="email"
 						placeholder="Email address"
 						required
 					/>
+					<span id="email-status"></span>
 					<input
 						type="text"
 						name="subject"
